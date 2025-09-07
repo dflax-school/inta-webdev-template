@@ -1,1 +1,1 @@
-{"image":"mcr.microsoft.com/devcontainers/universal:2", "postAttachCommand": "git clone https://github.com/nycdoe-cs4all/interactive-web.git; npm i -g http-server"}
+{"image":"mcr.microsoft.com/devcontainers/universal:2", "postAttachCommand": "git clone https://github.com/nycdoe-cs4all/interactive-web.git; rm -rf interactive-web/.git; npm i -g http-server"}
